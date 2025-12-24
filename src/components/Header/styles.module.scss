@@ -1,0 +1,13 @@
+.header {
+  background-image: url('/src/assets/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 18.5rem;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-top: 4rem;
+}
