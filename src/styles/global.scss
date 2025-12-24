@@ -10,11 +10,40 @@
   --base-profile: #0b1b2b;
   --base-background: #071422;
   --base-input: #040f1a;
+
+  --title-l: 1.5rem;
+  --title-m: 1.25rem;
+  --title-s: 1.125rem;
+
+  --text-m: 1rem;
+  --text-s: 0.875rem;
+
+  --text-link: 0.75rem;
 }
 
 body {
   background-color: var(--base-background);
   color: var(--base-text);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: var(--text-m);
+}
+
+a {
+  color: var(--blue);
+  font-size: var(--text-link);
+  font-weight: 700;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 h1,
@@ -26,9 +55,23 @@ h6 {
   color: var(--base-title);
 }
 
-body,
-input,
-textarea,
-button {
-  font-family: 'Nunito', sans-serif;
+h1 {
+  font-size: var(--title-l);
+}
+
+h2 {
+  font-size: var(--title-m);
+}
+
+h3 {
+  font-size: var(--title-s);
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+
+  display: flex;
+  flex-direction: column;
 }

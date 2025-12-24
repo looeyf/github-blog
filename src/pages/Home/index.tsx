@@ -1,3 +1,9 @@
+import { UserProfile } from './components/UserProfile';
+
 export function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div className="container">
+      <UserProfile />
+    </div>
+  );
 }

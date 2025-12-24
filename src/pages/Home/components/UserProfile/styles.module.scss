@@ -1,0 +1,49 @@
+.userProfile {
+  background-color: var(--base-profile);
+  padding: 2rem;
+  border-radius: 10px;
+
+  transform: translateY(-40%);
+
+  display: flex;
+  gap: 2rem;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 148px;
+  height: 148px;
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  margin-top: 1rem;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: var(--base-subtitle);
+
+    svg {
+      color: var(--base-label);
+    }
+  }
+}
