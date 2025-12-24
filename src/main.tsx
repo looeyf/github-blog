@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { App } from './App.tsx';
+import './configs/fontawesome.ts';
 import './styles/reset.scss';
 import './styles/global.scss';
 
